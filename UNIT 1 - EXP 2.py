@@ -3,7 +3,7 @@ def uppercase_decorator(func):
         result = func(*args, **kwargs)
         return result.upper()  # Convert result to uppercase
     return wrapper
-
+    
 
 class Report:
     def __init__(self, title):
